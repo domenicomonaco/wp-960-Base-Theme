@@ -1,5 +1,5 @@
 960 Base Theme
-Version 0.12009-06-15
+Version 0.52009-06-15
 http://960basetheme.kiuz.it
 
 Created by Domenico Monaco. See the official site for more info: http://kiuz.it

@@ -5,7 +5,7 @@
  * Description: Wordpress theme based on 960 Grid System
  * Author: Domenico Monaco
  * Author URI: http://www.kiuz.it
- * Version: 0.1
+ * Version: 0.5
  */
 ?>
 <?php get_header(); ?>

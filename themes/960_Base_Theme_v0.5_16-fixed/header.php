@@ -5,18 +5,20 @@
  * Description: Wordpress theme based on 960 Grid System
  * Author: Domenico Monaco
  * Author URI: http://www.kiuz.it
- * Version: 0.1
+ * Version: 0.5
  */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head profile="http://gmpg.org/xfn/11">
+	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
 	<!-- <link rel="shortcut icon" href="favicon.ico"><link rel="icon" type="image/gif" href="animated_favicon1.gif"> -->
 	<!-- <meta name="verify-v1" content="XXXXXXXX" /> --> <!-- Google Meta tag for Web Master Tools -->
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<title><?php if (function_exists('seo_title_tag')) { seo_title_tag(); } else { bloginfo('name'); wp_title();} ?></title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
 </head>
@@ -34,13 +36,12 @@
 <div class="clear">&nbsp;</div>
 
 <div id="header" class="grid_16">
-
-	<div id="img-head">
 	<h1 id="branding">
-		<a href="">960 Base Theme | V 0.1</a>
+		<a href="<?php echo get_settings('home'); ?>>"><?php bloginfo('name'); ?></a>
 	</h1>
-		<p>&nbsp;</p>
-
+<!--	<h4><?php bloginfo('description'); ?></h4> -->
+	<div id="img-head">
+	<p>&nbsp;</p>
 	</div><!-- END img-head -->
 </div><!-- END header -->
 
