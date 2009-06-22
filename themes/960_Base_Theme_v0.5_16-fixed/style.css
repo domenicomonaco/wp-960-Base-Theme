@@ -1,0 +1,41 @@
+/*
+Theme Name: 960Base Theme
+Theme URI: http://960basetheme.kiuz.it/
+Description: Wordpress theme based on 960 Grid System.
+Version: 0.1
+Author: Domenico Monaco
+Tags: 960, fluid, fixed, grid, system, moo, tools, ajax, kiuz, gpl, two columns, widgets, jqery
+
+960 Base Theme, Version 0.1, 2009-06-15
+Created by Domenico Monaco. See the official site for more info: http://kiuz.it
+Under GPL/MIT License
+Based on Fluid 960 Grid System
+Use Moo Javascript tools
+*/
+
+
+/* Import Css of Framwork, Fluid 960 Grid System */
+@import url("css/reset.css");
+@import url("css/960.css");
+@import url("css/layout.css");
+@import url("css/text.css");
+@import url("css/nav.css");
+
+/* All of css files of Fluid 960 Grid System, you can copy/past this for you prject*/
+/*
+@import url("css/reset.css");
+@import url("css/960.css");
+@import url("css/text.css");
+@import url("css/grid.css"); 
+@import url("css/layout.css");
+@import url("css/nav.css");
+*/
+
+#img-head {
+background: url(img/bg-pair.png);
+}
+#img-head p{
+height:233px;
+background: url(img/head.jpg) no-repeat top left;
+}
+
