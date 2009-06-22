@@ -1,5 +1,5 @@
 /*
-Theme Name: 960Base Theme
+Theme Name: 960Base Theme [FLUID]
 Theme URI: http://960basetheme.kiuz.it/
 Description: Wordpress theme based on 960 Grid System.
 Version: 0.1
@@ -16,7 +16,7 @@ Use Moo Javascript tools
 
 /* Import Css of Framwork, Fluid 960 Grid System */
 @import url("css/reset.css");
-@import url("css/960.css");
+@import url("css/grid.css");
 @import url("css/layout.css");
 @import url("css/text.css");
 @import url("css/nav.css");
