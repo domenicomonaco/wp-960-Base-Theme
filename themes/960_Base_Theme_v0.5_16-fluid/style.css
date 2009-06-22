@@ -1,10 +1,10 @@
 /*
-Theme Name: 960Base Theme
+Theme Name: 960Base Theme FLUID
 Theme URI: http://960basetheme.kiuz.it/
 Description: Wordpress theme based on 960 Grid System.
 Version: 0.5
 Author: Domenico Monaco
-Tags:  black, light, white, two-columns, right-sidebar, fixed-width, flexible-width, 960, fluid, fixed, grid, system, moo, tools, ajax, kiuz, gpl, two columns, widgets, jquery, kiuz
+Tags:  black, light, white, two-columns, right-sidebar, flexible-width, 960, fluid, grid, system, moo, tools, ajax, kiuz, gpl, two columns, widgets, jquery, kiuz
 
 960 Base Theme, Version 0.5, 2009-06-15
 Created by Domenico Monaco. See the official site for more info: http://kiuz.it
@@ -14,6 +14,15 @@ Based on Fluid 960 Grid System
 Use Moo Javascript tools
 */
 
+/*
++----------------------------------------------------+
+| 960 Base Theme created by Domenico Monaco          |
+| This project is free be used and modified under    |
+| GPL and Mit License, please read more              | 
+| This note remain intact                            |
+| ____________________________________________       |
+| 960 Base Theme | http://960basetheme.kiuz.it       |+----------------------------------------------------+
+*/
 
 /* Import Css of Framwork, Fluid 960 Grid System */
 @import url("css/reset.css");

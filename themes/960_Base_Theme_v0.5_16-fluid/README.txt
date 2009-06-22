@@ -1,3 +1,11 @@
++----------------------------------------------------+
+| 960 Base Theme created by Domenico Monaco          |
+| This project is free be used and modified under    |
+| GPL and Mit License, please read more              | 
+| This note remain intact                            |
+| ____________________________________________       |
+| 960 Base Theme | http://960basetheme.kiuz.it       |+----------------------------------------------------+
+
 960 Base Theme
 Version 0.52009-06-15
 http://960basetheme.kiuz.it
@@ -12,8 +20,6 @@ Stephen Bau where
 ============================================================================
 |This is the original "README" file of Fluid 960 Grid System of Stephen Bau|
 |I don't have delete this to give honor to previous projects               |
-|In according to my LICENSE version don't delete this note in future       |
-|version or project whit this. Read more "LICENSE file.                    |
 ============================================================================
 Fluid 960 Grid System
 Version 1.0.4
