@@ -1,12 +1,12 @@
 <?php
-/*   
-Theme Name: 960 Base Theme
-Theme URI: http://960basetheme.kiuz.it
-Description: Wordpress theme based on 960 Grid System
-Author: Domenico Monaco
-Author URI: http://www.kiuz.it
-Version: 0.1
-*/
+/*
+ * Theme Name: 960 Base Theme
+ * Theme URI: http://960basetheme.kiuz.it
+ * Description: Wordpress theme based on 960 Grid System
+ * Author: Domenico Monaco
+ * Author URI: http://www.kiuz.it
+ * Version: 0.1
+ */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
@@ -42,74 +42,26 @@ Version: 0.1
 		<p>&nbsp;</p>
 
 	</div><!-- END img-head -->
-
-	<div id="suckerfish-menu">
-      <?php # suckerfish(); ?> <!-- if you use "suckerfish" menu plugin can uncomment this -->
-	</div><!-- END suhkerfish-menu -->
-
 </div><!-- END header -->
 
 
+<div class="clear"></div>
+<div id="navi" class ="grid_16">
+<?php if(function_exists('wp_page_menu')) : ?>
+	<?php wp_page_menu('show_home=Home&menu_class=navigation'); ?>
+<?php else : ?>
+	<div id="page-nav">
+		<ul class="main nav">
+			<?php wp_list_pages('title_li='); ?>
+		</ul>
+	</div>
+<?php endif; ?>
+</div><!-- END menu -->
 
+<div class="clear"></div>
 
 
 <div class="clear"></div>
-			<div class="grid_16">
-				<h2 id="page-heading">Templates for Rapid Interactive Prototyping</h2>
-			</div>
-			<div class="clear"></div>
-			<div class="grid_4">
-				<div class="box">
-					<h2>Design Process</h2>
-					<div class="block">
-						<p>Design is based on the inspiration of past accomplishments. On that foundation, we can build upon those achievements to shape the future. Design is about life — past, present and future — and the learning process that happens between birth and death. It is about community and shared knowledge and experience. It is the passion to build on what we've learned to create something better.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid_4">
-				<div class="box">
-					<h2>Design Influences</h2>
-					<div class="block">
-						<p>The words "design influences" can be understood as both a plural noun and as subject and verb. The plural noun speaks of those who have come before us and paved the way. The verb speaks of the responsibility of design to lead the way. By understanding where we have come from, we have a better idea of where we are going and, perhaps, where we should be heading.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid_4">
-				<div class="box">
-					<h2>Inspiration</h2>
-					<div class="block">
-						<p>I have been inspired by the work of many who have pioneered advances in Web Standards, including 
-				<a href="http://www.31three.com/" title="www.31three.com">Jesse Bennett-Chamberlain</a>, 
-				<a href="http://www.stopdesign.com/" title="www.stopdesign.com">Douglas Bowman</a>, 
-				<a href="http://www.chaoticpattern.com/" title="www.chaoticpattern.com">Allen Chang</a>, 
-				<a href="http://www.stuffandnonsense.co.uk/" title="www.stuffandnonsense.co.uk">Andy Clarke</a>, 
-				<a href="http://www.hicksdesign.co.uk/" title="www.hicksdesign.co.uk">Jon Hicks</a>, 
-				<a href="http://www.shauninman.com/" title="www.shauninman.com">Shaun Inman</a>, 
-				<a href="http://www.cameronmoll.com/" title="www.cameronmoll.com">Cameron Moll</a>, 
-				<a href="http://veerle.duoh.com/" title="veerle.duoh.com">Veerle Pieters</a>, 
-				<a href="http://www.jasonsantamaria.com/" title="www.jasonsantamaria.com">Jason Santa Maria</a>, 
-				<a href="http://www.mezzoblue.com/" title="www.mezzoblue.com">Dave Shea</a>, 
-				<a href="http://www.thebignoob.com/" title="www.thebignoob.com">Ryan Sims</a>, 
-				<a href="http://www.sonspring.com/" title="www.sonspring.com">Nathan Smith</a>, and 
-				<a href="http://www.zeldman.com/" title="www.zeldman.com">Jeffrey Zeldman</a>, 
-				to name a few. Thank you for inspiring <a href="http://www.domain7.com/WhoWeAre/StephenBau.html" title="Stephen Bau, Designer, Domain7">me</a> to give something back.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid_4">
-				<div class="box">
-					<h2>Contribution</h2>
-					<div class="block">
-						<p>The <a href="/fluid960gs/">Fluid 960 Grid System</a> templates have been built upon the work of Nathan Smith and his <a href="http://960.gs/">960 Grid System</a> using effects from the <a href="http://mootools.net/">MooTools</a> and <a href="http://jquery.com/">jQuery</a>  JavaScript libraries. 
-			 The idea for building these templates was inspired by Andy Clarke, author of <a href="http://www.transcendingcss.com/">Transcending CSS</a>, who advocates a content-out approach to rapid interactive prototyping, crediting Jason Santa Maria with the <a href="http://www.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php">grey box method</a>.</p>
-					</div>
-				</div>
-			</div>
-			<div class="clear"></div>
-
-
-
-
 
 <div id="container">
-	<div id="content" class="grid_10">
+	<div id="content" class="grid_11">

@@ -16,9 +16,10 @@ Use Moo Javascript tools
 
 /* Import Css of Framwork, Fluid 960 Grid System */
 @import url("css/reset.css");
-@import url("css/grid.css");
+@import url("css/960.css");
 @import url("css/layout.css");
 @import url("css/text.css");
+@import url("css/nav.css");
 
 /* All of css files of Fluid 960 Grid System, you can copy/past this for you prject*/
 /*

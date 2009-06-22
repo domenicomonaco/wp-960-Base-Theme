@@ -1,16 +1,16 @@
 <?php
-/*   
-Theme Name: 960 Base Theme
-Theme URI: http://960basetheme.kiuz.it
-Description: Wordpress theme based on 960 Grid System
-Author: Domenico Monaco
-Author URI: http://www.kiuz.it
-Version: 0.1
-*/
+/*
+ * Theme Name: 960 Base Theme
+ * Theme URI: http://960basetheme.kiuz.it
+ * Description: Wordpress theme based on 960 Grid System
+ * Author: Domenico Monaco
+ * Author URI: http://www.kiuz.it
+ * Version: 0.1
+ */
 ?>
 </div><!-- end content -->
 
-<div id="sidebars" class="grid_6 right-sidebar">
+<div id="sidebars" class="grid_5 right-sidebar">
 	<div id="r-sidebar">     
       
       <div class="widget widget_cerca" id="cerca">
