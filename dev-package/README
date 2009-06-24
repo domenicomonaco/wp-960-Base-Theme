@@ -1,3 +1,29 @@
+
+-------------------------------------------------------------------------------
+/*--------------- Dev-Package Folder ---------------*/
+
+Dev-Package Folder is place where you can find a different versions part of  "960 Base Theme".
+The developing of project is divided in some directory, all this can they have different version.
+
+Whit this you can assemply your personal "960 Base Theme" at condition that you don't delete previous note.
+
+Thanks your collaboration.
+
+-------------------------------------------------------------------------------
+/*--------------- Features ---------------*/
+-	Extrea Project Included:
+	Contain original files of external project that I have included in my project.
+
+- 	Theming:
+	Contain update of theming files. New functions, hooks, scripts whit standard layout.
+	
+-	Layouts:
+	Contain update of different layout that I have created.
+
+
+
+-------------------------------------------------------------------------------
+/*--------------- GENERAL README ---------------*/
 +----------------------------------------------------+
 | 960 Base Theme created by Domenico Monaco          |
 | This project is free be used and modified under    |
@@ -16,17 +42,3 @@ Thank you for downloading the 960 Base Theme. This is a "starter theme" based
 on 960 Grid System, in particulary are based on "Fluid 960 Grid System" by
 Stephen Bau.
 
--------------------------------------------------------------------------------
-/*--------------- Dev-Package Folder ---------------*/
-
-Dev-Package Folder is place where you can find a different versions part of  "960 Base Theme".
-The developing of project is divided in some directory, all this can they have different version.
-
-Whit this you can assemply your personal "960 Base Theme" at condition that you don't delete previous note.
-
-Thanks your collaboration.
-
------
-Domenico M. / Kiuz
-http://www.kiuz.it
-http://960basetheme.kiuz.it
