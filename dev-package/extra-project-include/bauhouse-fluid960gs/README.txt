@@ -1,27 +1,6 @@
-+----------------------------------------------------+
-| 960 Base Theme created by Domenico Monaco          |
-| This project is free be used and modified under    |
-| GPL and Mit License, please read more              | 
-| This note remain intact                            |
-| ____________________________________________       |
-| 960 Base Theme | http://960basetheme.kiuz.it       |+----------------------------------------------------+
-
-960 Base Theme
-Version 1.02009-06-29
-http://960basetheme.kiuz.it
-
-Created by Domenico Monaco. See the official site for more info: http://kiuz.it
-
-Thank you for downloading the 960 Base Theme. This is a "starter theme" based
-on 960 Grid System, in particulary are based on "Fluid 960 Grid System" by
-Stephen Bau
-
-============================================================================
-|This is the original "README" file of Fluid 960 Grid System of Stephen Bau|
-|I don't have delete this to give honor to previous projects               |
-============================================================================
 Fluid 960 Grid System
 Version 1.0.5
+2009-06-20
 
 Created by Stephen Bau. Based on the work of Nathan Smith.
 
@@ -53,7 +32,9 @@ http://www.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php
 
 
 960 Grid System
-Version 1.2
+Version 1.0
+2008-03-24
+
 Created by Nathan Smith. See the official site for more info: http://960.gs/
 
 ============================================================================

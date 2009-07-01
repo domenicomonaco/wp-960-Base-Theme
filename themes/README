@@ -7,7 +7,7 @@
 | 960 Base Theme | http://960basetheme.kiuz.it       |+----------------------------------------------------+
 
 960 Base Theme
-Version 0.52009-06-15
+Version 1.02009-06-29
 http://960basetheme.kiuz.it
 
 Created by Domenico Monaco. See the official site for more info: http://kiuz.it
@@ -29,3 +29,25 @@ Thanks your collaboration.
 Domenico M. / Kiuz
 http://www.kiuz.it
 http://960basetheme.kiuz.it
+
+-------------------------------------------------------------------------------
+/*--------------- 960_Base_Theme_SIMPLE ---------------*/
+- CMS: Wordpress
+- 960 Base Theme
+- Version: 1.0.2
+- Theme based on 960 Grid System
+- 16 Col
+- Layout 10-6 and 5-5-6
+- Fixed or Fluid, you change this features with css files
+- Javascript effects by Stephen Bau
+
+------------------------------------------------------------------------------
+/*--------------- 960_Base_Theme_CLEAN ---------------*/
+- CMS: Wordpress
+- 960 Base Theme
+- Version: 1.0.0
+- Theme based on 960 Grid System
+- 16 Col
+- Layout 10-6 and 5-5-6
+- Fixed or Fluid, you change this features with css files
+- Javascript effects by Stephen Bau
